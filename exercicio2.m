@@ -10,7 +10,7 @@ pkg load optim
 % nao alterar: fim
 
 % C = 10*blendA + (2*NG)*blendB  --> funaoo objetivo do custo
-f = [10, NG*2]
+f = [10, NG*2]'
 
 % restrioes de desigualdade A.x <= b
 A = [-0.30, -0.20;
